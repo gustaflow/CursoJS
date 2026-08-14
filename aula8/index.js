@@ -11,6 +11,6 @@ const alturaEmM = 1.80;
 let indiceMassaCorporal = peso / (alturaEmM * alturaEmM); // Peso / (alturaEmM * alturaEmM)
 let anoNascimento = 2026 - idade;
 
-console.log(nome, sobrenome, 'tem', idade, 'anos, pesa', peso, 'kg')
-console.log('tem', alturaEmM, 'de alturaEmM e seu IMC é de', indiceMassaCorporal)
-console.log(nome, 'nasceu em', anoNascimento)
+console.log(`${nome} ${sobrenome} tem ${idade} anos, pesa ${peso} kg`)
+console.log(`tem ${alturaEmM} de ${alturaEmM} e seu IMC é de ${indiceMassaCorporal}`)
+console.log(`${nome} nasceu em ${anoNascimento}`)
